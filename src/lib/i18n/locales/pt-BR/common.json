@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "open": "Abrir menu",
+    "close": "Fechar menu",
+    "menu": "Menu",
+    "mobileLabel": "Navegação móvel",
+    "home": "Início",
+    "about": "Sobre",
+    "interest": "Interesse",
+    "footer": "Rodapé",
+    "products": "Produtos",
+    "launches": "Lançamentos",
+    "bestSellers": "Mais vendidos",
+    "offers": "Ofertas",
+    "blog": "Blog",
+    "contact": "Contato",
+    "ctaStart": "Começar grátis"
+  }
+}

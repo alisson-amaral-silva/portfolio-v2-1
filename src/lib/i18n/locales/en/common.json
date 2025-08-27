@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "open": "Open menu",
+    "close": "Close menu",
+    "menu": "Menu",
+    "mobileLabel": "Mobile navigation",
+    "home": "Home",
+    "about": "About",
+    "interest": "Interest",
+    "footer": "Footer",
+    "products": "Products",
+    "launches": "New",
+    "bestSellers": "Best sellers",
+    "offers": "Offers",
+    "blog": "Blog",
+    "contact": "Contact",
+    "ctaStart": "Start free"
+  }
+}
