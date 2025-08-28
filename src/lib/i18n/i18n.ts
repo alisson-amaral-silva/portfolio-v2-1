@@ -13,7 +13,7 @@ if (!i18n.isInitialized) {
     .init({
       fallbackLng: "pt-BR",
       supportedLngs: ["pt-BR", "en"],
-      ns: ["common", "introduction", "section"],
+      ns: ["common", "introduction", "section", "job"],
       defaultNS: "common",
       backend: {
         loadPath: "/locales/{{lng}}/{{ns}}.json",

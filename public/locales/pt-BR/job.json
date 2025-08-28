@@ -1,0 +1,16 @@
+[
+  {
+    "company": "Globant",
+    "range": "Abr 2024 - Presente",
+    "title": "Front-End Software Engineer",
+    "url": "https://www.globant.com/",
+    "html": "<div><ul><li><b>Desenvolvimento:</b> Aplicações web escalaveis com alta performance com React/NextJS.</li><li><b>Performance:</b> otimizações de bundle/SSR/Cache/CDN.</li><li><b>Integrações:</b> consumo de RESTful APIs e GraphQL com controle de cache e estados de erro/loading.</li><li><b>Qualidade:</b> Jest/Playwright e pipeline CI/CD , reduzindo regressões.</li><li><b>Parcerias globais:</b> trabalho diário com times internacionais, multidisciplinares e multiculturais (Design/PM/Back End/QA), auxiliando entregas em múltiplos fusos (sync/async) e documentação em inglês</li></ul></div>"
+  },
+  {
+    "company": "Iteris",
+    "range": "Mai 2018 - Marc/2024",
+    "title": "Full-Stack Software Developer",
+    "url": "https://www.iteris.com.br/",
+    "html": "<div><ul><li> Entrega de código escalável e com foco em manutenibilidade para múltiplos clientes (React, Angular, Next.js, Node.js, .NET).</li><li> <b>Colaboração internacional:</b> interação contínua com equipes globais e multidisciplinares, condução de cerimônias ágeis, alinhamentos cross-time e comunicação em inglês com stakeholders. </li> </ul></div>"
+  }
+]
