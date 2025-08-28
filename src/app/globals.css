@@ -189,4 +189,15 @@
   .company-link .hidden {
     overflow: hidden;
   }
+
+  .tech-list {
+    li + li {
+      margin-top: 0.25em;
+    }
+    list-style: none;
+    font-size: 18px;
+  }
+  .align-webkit-center {
+    text-align: -webkit-center;
+  }
 }

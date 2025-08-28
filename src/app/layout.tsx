@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const navItems: NavItem[] = [
   { labelKey: "nav.home", href: "#home" },
   { labelKey: "nav.about", href: "#about" },
-  { labelKey: "nav.interest", href: "#interest" },
+  { labelKey: "nav.hardSkills", href: "#hard-skills" },
   { labelKey: "nav.footer", href: "#footer" },
 ];
 
