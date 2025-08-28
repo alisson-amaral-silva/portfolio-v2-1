@@ -8,7 +8,7 @@ export default function Home() {
       className="flex flex-col justify-center items-start p-0 text-al"
     >
       <div>
-        <h1 className="md:text-2xl text-base text-purple-700 m-0">
+        <h1 className="md:text-2xl text-base text-purple-700 m-0 font-bold">
           {t("greeting")}
         </h1>
         <h2 className="md:text-7xl text-3xl text-zinc-600 dark:text-zinc-300">
@@ -20,7 +20,7 @@ export default function Home() {
         <h4 className="md:text-xl text-base text-zinc-600 dark:text-zinc-300 md:mt-6 mt-2 max-w-2xl">
           {t("opening")}{" "}
           <a
-            className="md:text-xl text-base text-purple-700 m-0"
+            className="md:text-xl text-base text-purple-700 m-0 font-bold"
             href="https://www.globant.com"
             target="_blank"
             rel="noreferrer"
