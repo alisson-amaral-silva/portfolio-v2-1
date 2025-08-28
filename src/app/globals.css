@@ -122,4 +122,71 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .heading {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px 0 30px;
+    width: 100%;
+    white-space: nowrap;
+
+    @media (max-width: 768px) {
+      margin: 10px 0 20px;
+    }
+  }
+  .heading::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 0;
+    width: 450px;
+    height: 1px;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: var(--color-purple-700);
+
+    @media (max-width: 1080px) {
+      width: 200px;
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    @media (max-width: 600px) {
+      margin-left: 10px;
+    }
+  }
+
+  .company-link {
+    color: var(--color-purple-700);
+    text-decoration: none;
+    padding: 0 0.2rem;
+    line-height: 1.1;
+
+    display: inline-block;
+    position: initial;
+    @media (max-width: 768px) {
+      position: initial;
+    }
+  }
+  .company-link::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: initial;
+    background: var(--color-purple-700);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .company-link:hover::after {
+    width: 100%;
+    left: 0;
+  }
+
+  .company-link .hidden {
+    overflow: hidden;
+  }
 }

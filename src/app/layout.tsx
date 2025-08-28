@@ -8,8 +8,7 @@ import { type NavItem } from "@/lib/nav/types";
 import { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Site com Atomic Design",
-  description: "Nav responsivo com shadcn/ui, i18n e theme toggle",
+  title: "Portfolio",
 };
 
 const navItems: NavItem[] = [

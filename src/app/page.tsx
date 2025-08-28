@@ -1,5 +1,6 @@
 "use client";
 import Section from "@/components/atoms/Section";
+import { About } from "@/components/organisms/About";
 import Home from "@/components/organisms/Home";
 
 export default function Page() {
@@ -7,14 +8,7 @@ export default function Page() {
     <>
       <Home />
 
-      <Section id="about">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-semibold">About</h2>
-          <p className="mt-3 text-zinc-600 dark:text-zinc-300">
-            Um pouco sobre o projeto/empresa.
-          </p>
-        </div>
-      </Section>
+      <About />
 
       <Section id="interest">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
