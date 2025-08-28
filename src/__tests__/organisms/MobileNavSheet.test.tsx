@@ -8,10 +8,6 @@ const items: NavItem[] = [
   { labelKey: "nav.home", href: "/" },
   {
     labelKey: "nav.products",
-    children: [
-      { labelKey: "nav.launches", href: "/produtos/lancamentos" },
-      { labelKey: "nav.offers", href: "/ofertas" },
-    ],
   },
 ];
 
@@ -40,7 +36,6 @@ test("abre o sheet e exibe título e links", async () => {
     screen.getByRole("navigation", { name: /navegação móvel/i })
   ).toBeInTheDocument();
 
-  // fecha ao clicar em um link simples
   const home = screen.getAllByRole("link", { name: /início/i })[0];
   await userEvent.click(home);
   expect(screen.queryByText(/menu/i)).not.toBeInTheDocument();

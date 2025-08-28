@@ -1,17 +1,11 @@
 "use client";
 import Section from "@/components/atoms/Section";
+import Home from "@/components/organisms/Home";
 
 export default function Page() {
   return (
     <>
-      <Section id="home">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold">Home</h1>
-          <p className="mt-3 text-zinc-600 dark:text-zinc-300">
-            Bem-vindo! Esta é a seção inicial.
-          </p>
-        </div>
-      </Section>
+      <Home />
 
       <Section id="about">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

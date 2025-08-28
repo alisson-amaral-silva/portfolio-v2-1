@@ -8,10 +8,6 @@ const items: NavItem[] = [
   { labelKey: "nav.home", href: "/" },
   {
     labelKey: "nav.products",
-    children: [
-      { labelKey: "nav.launches", href: "/produtos/lancamentos" },
-      { labelKey: "nav.offers", href: "/ofertas" },
-    ],
   },
 ];
 
@@ -32,11 +28,9 @@ test("abre o dropdown e lista subitens", async () => {
     </div>
   );
 
-  // trigger do menu de produtos
   const trigger = screen.getByRole("button", { name: /produtos/i });
   await userEvent.click(trigger);
 
-  // conteúdo portado deve aparecer
   expect(
     await screen.findByRole("link", { name: /lançamentos/i })
   ).toBeInTheDocument();

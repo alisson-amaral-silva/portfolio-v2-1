@@ -1,10 +1,6 @@
 export type ChildItem = { label?: string; labelKey?: string; href: string };
 export type NavItem = {
-label?: string;
-labelKey?: string;
-href?: string;
-children?: ChildItem[];
+  label?: string;
+  labelKey?: string;
+  href?: string;
 };
-
-
-export type CTA = { label?: string; labelKey?: string; href: string };
