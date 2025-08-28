@@ -1,16 +1,18 @@
-[
-  {
-    "company": "Globant",
-    "range": "April 2024 - Present",
-    "title": "Front-End Software Engineer",
-    "url": "https://www.globant.com/",
-    "html": "<div> <ul> <li> <b>Development:</b> Scalable web applications with high performance with React/NextJS. </li> <li><b>Performance:</b> optimizations of bundle/SSR/cache/CDN</li> <li> <b>Integrations:</b>robust REST/GraphQL consumption with caching, error and loading states</li> <li> <b>Quality:</b> Jest/Playwright and CI/CD (coverage, lint, type checks) reducing regressions. </li> <li> <b>Global collaboration:</b> daily cooperation with international cross-functional multicultural teams (Design / PM / BE / QA), synchronizing releases across several time zones with English-first sync/async docs. </li> </ul></div>"
-  },
-  {
-    "company": "Iteris",
-    "range": "May 2018 - March/2024",
-    "title": "Full-Stack Software Developer",
-    "url": "https://www.iteris.com.br/",
-    "html": "<div><ul><li> Delivered sustainable and scalable code on multiple stacks (React, Angular, Next.js, Node.js, .NET). </li> <li> <b>Global collaboration:</b> regular interaction with global, multidisciplinary, multicultural teams, leading agile cere monies, cross-team alignments and stakeholder communication in English. </li> </ul>s</div>"
-  }
-]
+{
+  "job_list": [
+    {
+      "company": "Globant",
+      "range": "April 2024 - Present",
+      "title": "Front-End Software Engineer",
+      "url": "https://www.globant.com/",
+      "html": "<div> <ul> <li> <b>Development:</b> Scalable web applications with high performance with React/NextJS. </li> <li><b>Performance:</b> optimizations of bundle/SSR/cache/CDN</li> <li> <b>Integrations:</b>robust REST/GraphQL consumption with caching, error and loading states</li> <li> <b>Quality:</b> Jest/Playwright and CI/CD (coverage, lint, type checks) reducing regressions. </li> <li> <b>Global collaboration:</b> daily cooperation with international cross-functional multicultural teams (Design / PM / BE / QA), synchronizing releases across several time zones with English-first sync/async docs. </li> </ul></div>"
+    },
+    {
+      "company": "Iteris",
+      "range": "May 2018 - March/2024",
+      "title": "Full-Stack Software Developer",
+      "url": "https://www.iteris.com.br/",
+      "html": "<div><ul><li> Delivered sustainable and scalable code on multiple stacks (React, Angular, Next.js, Node.js, .NET). </li> <li> <b>Global collaboration:</b> regular interaction with global, multidisciplinary, multicultural teams, leading agile cere monies, cross-team alignments and stakeholder communication in English. </li> </ul>s</div>"
+    }
+  ]
+}
