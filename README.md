@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
 
-## Getting Started
+This repository contains a modern, responsive portfolio built to showcase my Front-End development skills. The project uses a cutting-edge tech stack with a focus on performance, accessibility, and developer experience.
 
-First, run the development server:
+## Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React & Next.js (App Router):** For building the UI and routing.
+- **TypeScript:** To ensure type safety and robust code.
+- **Tailwind CSS:** For fast, responsive styling.
+- **Jest & React Testing Library:** For unit and integration testing.
+- **Context API:** For global state management (themes and i18n).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Architecture
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project follows the **Atomic Design**, methodology, organized as follows:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/components/atoms`: Basic, reusable components (e.g., Button, Icon).
+- `src/components/molecules`: Groups of atoms that work as a unit (e.g., ThemeSwitch).
+- `src/components/organisms`: Groups of molecules and atoms forming sections (e.g., Header, Home).
+- `src/app`: Next.js pages (equivalent to templates and pages in Atomic Design).
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Responsive Design:** Layout optimized for mobile, tablet, and desktop.
+- **Theme Switcher:** Toggle between light and dark themes; the selected theme is persisted in localStorage.
+- **Internationalization (i18n):** Support for multiple languages (Portuguese and English).
+- **Unit Tests:** Key components are tested with Jest and React Testing Library to ensure quality.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to Run:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/alisson-amaral-silva/portfolio-v2-1.git
+    cd portfolio-v2-1
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Start the development server:
+    ```bash
+    npm run dev
+    ```
