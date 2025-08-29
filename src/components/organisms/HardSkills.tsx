@@ -53,13 +53,13 @@ export function HardSkills() {
                 </p>
               </div>
               <div>
-                <p className="text-purple-700">{t("languages")}</p>
+                <p className="text-purple-700 font-bold">{t("languages")}</p>
                 <p className="text-zinc-600 dark:text-zinc-300">
                   React, Angular, TypeScript, Next.JS
                 </p>
               </div>
               <div>
-                <p className="text-purple-700">{t("dev-tools")}</p>
+                <p className="text-purple-700 font-bold">{t("dev-tools")}</p>
                 <ul className="ml-0 mt-0 list-none">
                   {frontEndDevTools.map((skill) => (
                     <li
@@ -94,13 +94,13 @@ export function HardSkills() {
                 </p>
               </div>
               <div>
-                <p className="text-purple-700">{t("languages")}</p>
+                <p className="text-purple-700 font-bold">{t("languages")}</p>
                 <p className="text-zinc-600 dark:text-zinc-300">
                   Node.JS, Java, C#, .NET
                 </p>
               </div>
               <div>
-                <p className="text-purple-700">{t("dev-tools")}</p>
+                <p className="text-purple-700 font-bold">{t("dev-tools")}</p>
                 <ul className="ml-0 mt-0 list-none">
                   {backEndDevTools.map((skill) => (
                     <li

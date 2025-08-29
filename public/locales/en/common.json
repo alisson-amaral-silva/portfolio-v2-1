@@ -9,14 +9,8 @@
     "hardSkills": "Hard Skills",
     "experience": "Experience",
     "experiments": "Some Things I’ve Built/Studied",
-    "footer": "Footer",
-    "products": "Products",
-    "launches": "New",
-    "bestSellers": "Best sellers",
-    "offers": "Offers",
-    "blog": "Blog",
     "contact": "Contact",
-    "ctaStart": "Start free"
+    "resume": "Resume"
   },
   "buttons": {
     "live": "Live Demo",

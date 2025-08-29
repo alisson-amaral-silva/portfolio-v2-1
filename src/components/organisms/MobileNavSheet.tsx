@@ -13,7 +13,10 @@ import {
 } from "@/components/ui/sheet";
 import { NavItem } from "@/lib/nav/types";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
+import { CustomButton } from "../atoms/HoverButton";
+import { useLanguageSwitch } from "@/hooks/useLanguageSwitch";
 
 export default function MobileNavSheet({
   items,
@@ -23,6 +26,7 @@ export default function MobileNavSheet({
   t: (k: string) => string;
 }) {
   const [open, setOpen] = useState(false);
+  const { isPtBr } = useLanguageSwitch();
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -48,6 +52,16 @@ export default function MobileNavSheet({
         </SheetHeader>
 
         <div className="flex items-center gap-2 px-6 pb-3">
+          <CustomButton>
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={isPtBr ? "/docs/resume_pt.pdf" : "/docs/resume_en.pdf"}
+              aria-label={t("nav.resume")}
+            >
+              {t("nav.resume")}
+            </Link>
+          </CustomButton>
           <LanguageSwitch />
           <ThemeToggle />
         </div>

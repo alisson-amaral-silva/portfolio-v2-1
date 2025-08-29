@@ -8,7 +8,7 @@ import { type NavItem } from "@/lib/nav/types";
 import { ReactNode } from "react";
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Alisson | Software Engineer",
 };
 
 const navItems: NavItem[] = [
@@ -17,7 +17,7 @@ const navItems: NavItem[] = [
   { labelKey: "nav.hardSkills", href: "#hard-skills" },
   { labelKey: "nav.experience", href: "#experience" },
   { labelKey: "nav.experiments", href: "#experiments" },
-  { labelKey: "nav.footer", href: "#footer" },
+  { labelKey: "nav.contact", href: "#contact" },
 ];
 
 export default function RootLayout({ children }: { children: ReactNode }) {

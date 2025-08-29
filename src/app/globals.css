@@ -308,4 +308,30 @@
     left: 0;
     color: var(--color-purple-700);
   }
+
+  .image-experiments {
+    width: 800px;
+    height: 400px;
+
+    @media (max-width: 600px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .contact-heading {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--color-purple-700);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .contact-heading:before {
+    bottom: 0;
+    font-size: 14px;
+  }
+
+  .contact-heading:after {
+    display: none;
+  }
 }

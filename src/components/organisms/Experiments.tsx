@@ -20,7 +20,10 @@ export function Experiments() {
     ? (raw as ExperimentProps[])
     : [];
   return (
-    <Section className="flex-col align-middle justify-center" id="experiments">
+    <Section
+      className="block md:flex-col align-middle justify-center"
+      id="experiments"
+    >
       <h4 className="heading md:text-3xl text-2xl mb-3">
         {t("section:experiments")}
       </h4>
@@ -46,9 +49,8 @@ export function Experiments() {
                 src={image}
                 width={800}
                 height={400}
-                sizes="(max-width: 768px) auto"
                 alt={title}
-                className="rounded brightness-30 hover:brightness-100 focus:brightness-100 transition duration-300 ease-in-out"
+                className="image-experiments md:mt-0 mt-4 rounded brightness-30 hover:brightness-100 focus:brightness-100 transition duration-300 ease-in-out"
               />
             </Link>
           </div>

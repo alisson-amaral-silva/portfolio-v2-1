@@ -8,6 +8,9 @@ import MobileNavSheet from "@/components/organisms/MobileNavSheet";
 import { NavItem } from "@/lib/nav/types";
 import { useTranslation } from "react-i18next";
 import { ReactNode, useEffect, useState } from "react";
+import { useLanguageSwitch } from "@/hooks/useLanguageSwitch";
+import Link from "next/link";
+import { CustomButton } from "../atoms/HoverButton";
 
 export default function HeaderNav({
   items,
@@ -19,6 +22,7 @@ export default function HeaderNav({
   endSlot?: ReactNode;
 }) {
   const { t } = useTranslation("common");
+  const { isPtBr } = useLanguageSwitch();
 
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
@@ -46,7 +50,19 @@ export default function HeaderNav({
             t={t}
             endSlot={
               endSlot ?? (
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 ml-4">
+                  <CustomButton>
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={
+                        isPtBr ? "/docs/resume_pt.pdf" : "/docs/resume_en.pdf"
+                      }
+                      aria-label={t("nav.resume")}
+                    >
+                      {t("nav.resume")}
+                    </Link>
+                  </CustomButton>
                   <LanguageSwitch />
                   <ThemeToggle />
                 </div>

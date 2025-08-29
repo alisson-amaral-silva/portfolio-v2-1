@@ -18,7 +18,7 @@ export default function Section({ id, className, children }: Props) {
     <section
       id={id}
       ref={ref}
-      className={`scroll-mt-16 min-h-[calc(100vh-4rem)] flex items-center transition-all duration-700 ease-out will-change-transform ${anim} ${
+      className={`scroll-mt-16 min-h-[calc(100vh-4rem)] md:flex items-center transition-all duration-700 ease-out will-change-transform ${anim} ${
         className ?? ""
       }`}
     >

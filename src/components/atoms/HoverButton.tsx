@@ -8,7 +8,7 @@ export const CustomButton = ({ children, ...rest }: CustomButtonProps) => {
   return (
     <button
       {...rest}
-      className="group relative px-4 py-2 font-medium text-zinc-600 dark:text-zinc-300 transition-colors duration-[400ms] hover:text-indigo-300"
+      className="group relative px-4 py-2 font-medium text-zinc-700 dark:text-zinc-300 transition-colors duration-[400ms]"
     >
       <span>{children}</span>
 
