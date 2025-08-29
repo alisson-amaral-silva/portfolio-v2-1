@@ -1,6 +1,12 @@
-# Portfolio
+<h1 align="center">
+  Portfolio
+</h1>
 
 This repository contains a modern, responsive portfolio built to showcase my Front-End development skills. The project uses a cutting-edge tech stack with a focus on performance, accessibility, and developer experience.
+
+![en-demo](https://raw.githubusercontent.com/alisson-amaral-silva/portfolio-v2-1/main/public/images/portfolio-en.png)
+
+![pt-br-demo](https://raw.githubusercontent.com/alisson-amaral-silva/portfolio-v2-1/main/public/images/portfolio-pt.png)
 
 ## Technologies
 
@@ -41,3 +47,14 @@ The project follows the **Atomic Design**, methodology, organized as follows:
     ```bash
     npm run dev
     ```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result..
+
+## Commands
+
+- `dev`: runs your application on `localhost:3000`
+- `build`: creates the production build version
+- `start`: starts a simple server with the build production code
+- `lint`: runs the linter in all components and pages
+- `test`: runs jest to test all components and pages
+- `test:watch`: runs jest in watch mode
