@@ -10,20 +10,21 @@ export interface JobProps {
 }
 
 export function Jobs() {
-  const { t } = useTranslation("job");
-  const jobs = t("job_list", { returnObjects: true }) as JobProps[];
+  const { t } = useTranslation("jobs");
+  const raw = t("job_list", { returnObjects: true }) as unknown;
+  const job_list: JobProps[] = Array.isArray(raw) ? (raw as JobProps[]) : [];
   return (
-    <Section className="block md:flex" id="jobs">
+    <Section className="block md:flex" id="experience">
       <h4 className="heading text-3xl">{t("section:hard-skills")}</h4>
       <div role="tablist" className="job-tab-list">
-        {jobs.map(({ company }) => (
+        {job_list?.map(({ company }) => (
           <button className="job-button" key={company}>
             <span key={`${company} span`}>{company}</span>
           </button>
         ))}
       </div>
       <div className="relative md:ml-5 ml-0">
-        {jobs.map(({ title, url, company, range, html }) => (
+        {job_list?.map(({ title, url, company, range, html }) => (
           <div role="tabpanel" className="job-list" key={`${title}-${company}`}>
             <span> {title}</span>
             <span key={`${company} - company`} className="text-purple-700">

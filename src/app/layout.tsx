@@ -15,6 +15,7 @@ const navItems: NavItem[] = [
   { labelKey: "nav.home", href: "#home" },
   { labelKey: "nav.about", href: "#about" },
   { labelKey: "nav.hardSkills", href: "#hard-skills" },
+  { labelKey: "nav.experience", href: "#experience" },
   { labelKey: "nav.footer", href: "#footer" },
 ];
 

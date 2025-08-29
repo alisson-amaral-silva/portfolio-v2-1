@@ -3,6 +3,7 @@ import Section from "@/components/atoms/Section";
 import { About } from "@/components/organisms/About";
 import { HardSkills } from "@/components/organisms/HardSkills";
 import Home from "@/components/organisms/Home";
+import { Jobs } from "@/components/organisms/Jobs";
 
 export default function Page() {
   return (
@@ -12,6 +13,8 @@ export default function Page() {
       <About />
 
       <HardSkills />
+
+      <Jobs />
 
       <Section id="footer">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
