@@ -8,6 +8,7 @@
     "about": "About",
     "hardSkills": "Hard Skills",
     "experience": "Experience",
+    "experiments": "Some Things I’ve Built/Studied",
     "footer": "Footer",
     "products": "Products",
     "launches": "New",
@@ -16,5 +17,9 @@
     "blog": "Blog",
     "contact": "Contact",
     "ctaStart": "Start free"
+  },
+  "buttons": {
+    "live": "Live Demo",
+    "source": "Source Code"
   }
 }

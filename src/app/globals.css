@@ -123,6 +123,10 @@
     @apply bg-background text-foreground;
   }
 
+  img {
+    max-width: none;
+  }
+
   .heading {
     display: flex;
     align-items: center;

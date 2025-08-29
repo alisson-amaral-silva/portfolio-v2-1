@@ -1,4 +1,5 @@
 import Section from "@/components/atoms/Section";
+import Link from "next/link";
 import { useTranslation } from "react-i18next";
 export default function Home() {
   const { t } = useTranslation("introduction");
@@ -19,14 +20,14 @@ export default function Home() {
         </h3>
         <h4 className="md:text-xl text-base text-zinc-600 dark:text-zinc-300 md:mt-6 mt-2 max-w-2xl">
           {t("opening")}{" "}
-          <a
+          <Link
             className="md:text-xl text-base text-purple-700 m-0 font-bold"
             href="https://www.globant.com"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {t("company")}
-          </a>
+          </Link>
         </h4>
       </div>
     </Section>

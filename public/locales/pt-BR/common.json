@@ -8,6 +8,7 @@
     "about": "Sobre",
     "hardSkills": "Técnico",
     "experience": "Experiencias",
+    "experiments": "Algumas coisas que criei/estudei",
     "footer": "Rodapé",
     "products": "Produtos",
     "launches": "Lançamentos",
@@ -16,5 +17,9 @@
     "blog": "Blog",
     "contact": "Contato",
     "ctaStart": "Começar grátis"
+  },
+  "buttons": {
+    "live": "Demo ao vivo",
+    "source": "Codigo fonte"
   }
 }

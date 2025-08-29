@@ -1,6 +1,7 @@
 "use client";
 import Section from "@/components/atoms/Section";
 import { About } from "@/components/organisms/About";
+import { Experiments } from "@/components/organisms/Experiments";
 import { HardSkills } from "@/components/organisms/HardSkills";
 import Home from "@/components/organisms/Home";
 import { Jobs } from "@/components/organisms/Jobs";
@@ -15,6 +16,8 @@ export default function Page() {
       <HardSkills />
 
       <Jobs />
+
+      <Experiments />
 
       <Section id="footer">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

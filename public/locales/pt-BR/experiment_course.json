@@ -1,0 +1,27 @@
+{
+  "list": [
+    {
+      "overline": "Projetos Criados/Estudos",
+      "title": "Won Games",
+      "html": "<p>Um curso que cria um ecommerce chamado Won Games e ajuda a entender React, Heroku, NextJS, Jest, Storybook, Cypress, TypeScript, Styled Components, React Testing Library.</p>",
+      "image": "/images/won-games.png",
+      "github": "https://github.com/alisson-amaral-silva/won-games-client"
+    },
+    {
+      "overline": "Projetos Criados/Estudos",
+      "title": "Coffee Delivery",
+      "html": "<p>Um desafio de um curso feito para entender conceitos de estados, context api, local storage, imutabilidade, listas e chaves, propriedades e componentização.</p>",
+      "image": "/images/coffee-delivery.png",
+      "url": "https://coffee-delivery-alpha-one.vercel.app/",
+      "github": "https://github.com/alisson-amaral-silva/coffee-delivery"
+    },
+    {
+      "overline": "Projetos Criados/Estudos",
+      "title": "Ignite Shop",
+      "html": "<p>Um curso que cria um e-commerce simples com integração com stripe.</p>",
+      "image": "/images/ignite-shop.png",
+      "url": "https://ignite-shop-spcr.vercel.app/",
+      "github": "https://github.com/alisson-amaral-silva/ignite-shop"
+    }
+  ]
+}

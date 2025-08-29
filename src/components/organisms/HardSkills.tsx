@@ -28,7 +28,9 @@ export function HardSkills() {
 
   return (
     <Section className="flex-col items-start justify-center" id="hard-skills">
-      <h2 className="heading text-3xl">{t("section:hard-skills")}</h2>
+      <h2 className="heading md:text-3xl text-2xl">
+        {t("section:hard-skills")}
+      </h2>
       <div className="w-full h-full">
         <div className="md:grid md:grid-cols-2">
           <div className="flex justify-center align-middle w-full h-full text-center">
