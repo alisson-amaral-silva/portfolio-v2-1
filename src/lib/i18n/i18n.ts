@@ -21,6 +21,7 @@ if (!i18n.isInitialized) {
         "experiment_course",
         "contact",
         "seo",
+        "corewv",
       ],
       defaultNS: "common",
       backend: {

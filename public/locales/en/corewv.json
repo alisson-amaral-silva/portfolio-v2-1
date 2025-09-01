@@ -1,0 +1,33 @@
+{
+  "title": "Core Web Vitals",
+  "description": "Track LCP, INP, CLS (plus FCP/TTFB) measured on your device in real time.",
+  "rating": { "good": "good", "ni": "needs attention", "poor": "poor" },
+  "labels": {
+    "LCP": "Largest Contentful Paint",
+    "INP": "Interaction to Next Paint",
+    "CLS": "Cumulative Layout Shift",
+    "FCP": "First Contentful Paint",
+    "TTFB": "Time to First Byte"
+  },
+  "goals": {
+    "LCP": "Target ≤ 2.5s.",
+    "INP": "Target ≤ 200ms.",
+    "CLS": "Target ≤ 0.10.",
+    "FCP": "Target ≤ 1.8s.",
+    "TTFB": "Target ≤ 800ms."
+  },
+  "tipsTitle": "Tips",
+  "tips": [
+    "Values reflect this session (your device).",
+    "Navigate across routes to see updates for LCP/INP/CLS.",
+    "CLS can change as images/ads load; use placeholders with fixed dimensions."
+  ],
+  "aboutTitle": "What each metric means",
+  "about": {
+    "LCP": "Time until the largest visible content element is rendered (e.g., hero image, large heading). Reflects perceived load speed.",
+    "INP": "Interaction latency across the page. Measures the time between a user action and the next meaningful visual update.",
+    "CLS": "How much the layout unexpectedly shifts. Layout shifts disrupt reading and interactions.",
+    "FCP": "When the first pixel of content is painted. Indicates the start of visual loading.",
+    "TTFB": "How long the browser waits to receive the first byte from the server."
+  }
+}

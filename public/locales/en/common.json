@@ -10,7 +10,8 @@
     "experience": "Experience",
     "experiments": "Some Things I’ve Built/Studied",
     "contact": "Contact",
-    "resume": "Resume"
+    "resume": "Resume",
+    "vitals": "Core Web Vitals"
   },
   "buttons": {
     "live": "Live Demo",

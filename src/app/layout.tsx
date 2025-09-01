@@ -10,6 +10,24 @@ import MetaTags from "@/components/organisms/MetaTags";
 
 export const metadata: Metadata = {
   title: "Alisson | Software Engineer",
+  description:
+    "Alisson is a software engineer specializing in building (and occasionally designing) exceptional digital experiences.",
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: [
+      {
+        url: "/images/android-chrome-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/images/android-chrome-512x512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+    apple: [{ url: "/images/android-chrome-192x192.png" }],
+  },
 };
 
 const navItems: NavItem[] = [
@@ -19,6 +37,7 @@ const navItems: NavItem[] = [
   { labelKey: "nav.experience", href: "#experience" },
   { labelKey: "nav.experiments", href: "#experiments" },
   { labelKey: "nav.contact", href: "#contact" },
+  { labelKey: "nav.vitals", href: "/core-web-vitals" },
 ];
 
 export default function RootLayout({ children }: { children: ReactNode }) {

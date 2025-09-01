@@ -1,0 +1,33 @@
+{
+  "title": "Core Web Vitals",
+  "description": "Acompanhe LCP, INP e CLS (além de FCP/TTFB) medidos no seu dispositivo em tempo real.",
+  "rating": { "good": "bom", "ni": "atenção", "poor": "ruim" },
+  "labels": {
+    "LCP": "Maior Conteúdo Exibido",
+    "INP": "Interação à Próximo conteudo exibido",
+    "CLS": "Mudança Acumulada de Layout",
+    "FCP": "Primeiro Conteúdo na tela",
+    "TTFB": "Tempo até o Primeiro Byte"
+  },
+  "goals": {
+    "LCP": "Objetivo ≤ 2,5s.",
+    "INP": "Objetivo ≤ 200ms.",
+    "CLS": "Objetivo ≤ 0,10.",
+    "FCP": "Objetivo ≤ 1,8s.",
+    "TTFB": "Objetivo ≤ 800ms."
+  },
+  "tipsTitle": "Dicas",
+  "tips": [
+    "Os valores refletem esta sessão (seu dispositivo).",
+    "Navegue entre rotas para ver atualizações de LCP/INP/CLS.",
+    "CLS pode mudar conforme imagens/ads carregam; use placeholders com dimensões fixas."
+  ],
+  "aboutTitle": "O que cada métrica significa",
+  "about": {
+    "LCP": "Tempo até o maior elemento de conteúdo visível ser renderizado (ex.: imagem hero, grande heading). Reflete a velocidade de carregamento percebida.",
+    "INP": "Latência de interação durante a sessão. Mede o tempo entre a ação do usuário e a próxima atualização visual significativa.",
+    "CLS": "Quanto o layout “salta” inesperadamente. Mudanças de layout prejudicam a leitura e a interação.",
+    "FCP": "Momento em que o primeiro pixel de conteúdo é exibido na tela. Indica início do carregamento visual.",
+    "TTFB": "Tempo que o navegador leva para receber o primeiro byte da resposta do servidor."
+  }
+}
