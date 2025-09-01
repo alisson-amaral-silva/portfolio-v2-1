@@ -1,0 +1,8 @@
+{
+  "title": "Alisson | Engenheiro de Software",
+  "description": "Alisson é um desenvolvedor de software especializado em criar (e ocasionalmente design) com excepcionais experiências digitais.",
+  "ogTitle": "Portfolio",
+  "ogDescription": "Um Portfolio usando Typescript, React, NextJS, Tailwind, i18n e Radix.",
+  "ogImage": "/images/portfolio-pt.png",
+  "twitterCard": "/images/portfolio-pt.png"
+}

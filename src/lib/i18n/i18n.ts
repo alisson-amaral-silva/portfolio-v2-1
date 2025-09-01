@@ -20,6 +20,7 @@ if (!i18n.isInitialized) {
         "jobs",
         "experiment_course",
         "contact",
+        "seo",
       ],
       defaultNS: "common",
       backend: {

@@ -4,6 +4,7 @@ import Section from "../atoms/Section";
 
 export function Contact() {
   const { t } = useTranslation("contact");
+  const email = process.env.EMAIL ?? "";
   return (
     <Section
       className="flex flex-col align-middle justify-center max-w-6xl min-h-6xl"
@@ -18,7 +19,7 @@ export function Contact() {
       </p>
       <div className="mt-4">
         <LinkButton
-          href={`mailto:${process.env.EMAIL}`}
+          href={`mailto:${email}`}
           aria="Alisson Mail"
           content={t("button-message")}
         />

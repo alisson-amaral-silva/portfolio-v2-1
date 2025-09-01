@@ -10,15 +10,10 @@ export default function Page() {
   return (
     <>
       <Home />
-
       <About />
-
       <HardSkills />
-
       <Jobs />
-
       <Experiments />
-
       <Contact />
     </>
   );

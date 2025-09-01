@@ -6,6 +6,7 @@ import I18nProvider from "@/components/providers/I18nProvider";
 import HeaderNav from "@/components/templates/HeaderNav";
 import { type NavItem } from "@/lib/nav/types";
 import { ReactNode } from "react";
+import MetaTags from "@/components/organisms/MetaTags";
 
 export const metadata: Metadata = {
   title: "Alisson | Software Engineer",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className="min-h-screen bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100">
         <ThemeProvider>
           <I18nProvider>
+            <MetaTags />
             <HeaderNav items={navItems} />
             <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
               {children}
